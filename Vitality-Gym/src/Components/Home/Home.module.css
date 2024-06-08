@@ -1,0 +1,7 @@
+.homeSection {
+    height: 100vh;
+    background: url("./assets/backgroundImg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
