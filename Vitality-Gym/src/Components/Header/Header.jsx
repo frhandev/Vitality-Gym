@@ -40,11 +40,11 @@ function Header() {
             <nav className={active}>
                 <a onClick={navToggle} className={styles.navElement + ' ' + styles.xMark }> {xMark} </a>
                 <a href="#home" className={styles.navElement}>Home</a>
-                <a href="#" className={styles.navElement}>About</a>
-                <a href="#" className={styles.navElement}>Classes</a>
-                <a href="#" className={styles.navElement}>Trainers</a>
-                <a href="#" className={styles.navElement}>Membership</a>
-                <a href="#" className={styles.navElement}>Contact</a>
+                <a href="#about" className={styles.navElement}>About</a>
+                <a href="#classes" className={styles.navElement}>Classes</a>
+                <a href="#trainers" className={styles.navElement}>Trainers</a>
+                <a href="#membership" className={styles.navElement}>Membership</a>
+                <a href="#contact" className={styles.navElement}>Contact</a>
             </nav>
         </header>
     );

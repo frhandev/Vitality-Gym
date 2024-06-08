@@ -1,7 +1,136 @@
 .homeSection {
-    height: 100vh;
+    min-height: 100vh;
     background: url("./assets/backgroundImg.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.descriptionContainer {
+    color: #fff;
+    width: 40%;
+    height: fit-content;
+    margin-right: 10%;
+    font-size: 1.8em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descriptionContainer a {
+    width: 25%;
+    background-color: #15792d;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 20px #000;
+    transition: 0.4s ease-in-out;
+}
+
+.descriptionContainer a:hover {
+    background-color: #fff;
+    color: hsl(134, 70%, 28%);
+}
+
+
+.engagingHeadline {
+    color: #fff;
+    font-size: 6em;
+    width: 40%;
+    margin-left: 10%;
+    height: fit-content;
+}
+
+.engagingHeadline span {
+    transition: 0.3s ease-in-out;
+}
+
+.engagingHeadline span:hover {
+    text-shadow: 5px 5px 0 #000, 10px 10px 0 #fff, 15px 15px 0 #000;
+}
+
+#noPain {
+    text-shadow: 1px 0 0 #fff,
+                 0 1px 0 #fff,
+                 -1px 0 0 #fff,
+                 0 -1px 0 #fff;
+    color: black;
+}
+
+#noPain:hover {
+    text-shadow: 5px 5px 0 #fff, 10px 10px 0 #000, 15px 15px 0 #fff,1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+
+#noGain {
+    margin-left: 50px;
+}
+
+#shutUp {
+    margin-left: 100px;
+    text-shadow: 1px 0 0 #fff,
+                 0 1px 0 #fff,
+                 -1px 0 0 #fff,
+                 0 -1px 0 #fff;
+    color: black;
+}
+
+#shutUp:hover {
+    text-shadow: 5px 5px 0 #fff, 10px 10px 0 #000, 15px 15px 0 #fff,1px 0 0 #fff,
+    0 1px 0 #fff,
+    -1px 0 0 #fff,
+    0 -1px 0 #fff;
+}
+
+#andTrain {
+    margin-left: 150px;
+}
+
+
+@media (max-width: 1024px) {
+    .descriptionContainer a {
+        width: 60%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #noGain {
+        margin-left: 0;
+    }
+
+    #shutUp {
+        margin-left: 0;
+    }
+
+    #andTrain {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 620px) {
+    .homeSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descriptionContainer{
+        margin: 0;
+        width: 90%;
+    }
+
+    .engagingHeadline {
+        width: 90%;
+        margin: 0;
+        text-align: center;
+        margin-top: 100px;
+    }
 }
