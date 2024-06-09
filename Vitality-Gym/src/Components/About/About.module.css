@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.about {
+    font-size: 2em;
+    padding: 0;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.4em;
+    margin-bottom: 50px;
+}
+
+.about img {
+    width: 45%;
+    position: sticky;
+    top: 150px;
+    object-fit:scale-down;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.about span {
+    color: #15792d;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 80%;
+}
+
+.innerContainers {
+    width: 50%;
+    position: sticky;
+    top: 150px;
+    height: fit-content;
+}
+
+@media (max-width: 1024px) {
+    .containers {
+        width: 98%;
+    }
+}
+
+@media (max-width: 450px) {
+    .about img {
+        display: none;
+    }
+
+    .innerContainers {
+        width: 100%;
+    }
+}

@@ -37,6 +37,7 @@
 .descriptionContainer a:hover {
     background-color: #fff;
     color: hsl(134, 70%, 28%);
+    cursor: pointer;
 }
 
 
