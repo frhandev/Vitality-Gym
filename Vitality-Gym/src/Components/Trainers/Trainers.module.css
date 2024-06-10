@@ -1,0 +1,81 @@
+.trainersSection {
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainerCardContainers {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+
+.title {
+    font-size: 4em;
+    margin-bottom: 1em;
+    width: fit-content;
+}
+
+
+/*Trainer Card*/
+.trainerCard {
+    max-height: 30em;
+    margin: 1em 20%;
+    text-align: center;
+    width: 60%;
+    padding: 2em 1em;
+    box-shadow: 0 0 10px #818181;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.trainerCard:hover {
+    transform: scale(1.05);
+}
+
+.trainerCard img {
+    pointer-events: none;
+    width: 80%;
+    border-radius: 50%;
+    border: #000 solid 1px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.trainerCard h3 {
+    pointer-events: none;
+    margin-bottom: 0.3em;
+    font-size: 1.6em;
+}
+
+.trainerCard h4 {
+    pointer-events: none;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+.slick-slide {
+    padding: 10px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+
