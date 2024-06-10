@@ -4,6 +4,7 @@ import Header from './Components/Header/Header'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Trainers from './Components/Trainers/Trainers'
+import Memberships from './Components/Membership/MembershipsSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Trainers />
+      <Memberships />
     </>
   )
 }

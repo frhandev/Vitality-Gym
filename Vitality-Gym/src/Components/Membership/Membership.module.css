@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.title {
+    font-size: 4em;
+    margin-bottom: 1em;
+    width: fit-content;
+}
+
+.membershipsSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 0;
+}
+
+.planContainers {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.membershipCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+    width: 20%;
+    border-radius: 20px;
+    padding: 1.4em;
+    box-shadow: 0 0 10px #717171;
+    transition: 0.2s;
+}
+
+.membershipCard:hover {
+    transform: scale(1.05);
+}
+
+.membershipCard h3 {
+    font-size: 2em;
+    margin-bottom: 0.7em;
+}
+
+.membershipCard h4 {
+    font-size: 1.6em;
+    margin-bottom: .7em;
+}
+
+.membershipCard ul {
+    width: 70%;
+    margin-bottom: 0.7em;
+}
+
+.membershipCard li {
+    font-family: "Abel", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .planContainers {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 475px) {
+    .membershipCard {
+        width: 50%;
+    }
+}

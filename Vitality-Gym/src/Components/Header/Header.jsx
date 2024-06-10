@@ -43,7 +43,6 @@ function Header() {
                 <a href="#about" className={styles.navElement}>About</a>
                 <a href="#trainers" className={styles.navElement}>Trainers</a>
                 <a href="#membership" className={styles.navElement}>Membership</a>
-                <a href="#contact" className={styles.navElement}>Contact</a>
             </nav>
         </header>
     );
