@@ -11,3 +11,9 @@
 p {
   font-family: "Abel", sans-serif;
 }
+
+footer {
+  padding: 5em 10em;
+  background-color: #000;
+  color: #fff;
+}

@@ -16,6 +16,9 @@ function App() {
       <About />
       <Trainers />
       <Memberships />
+      <footer>
+            <p>&copy; Vitality Gym {new Date().getFullYear()}</p>
+      </footer>
     </>
   )
 }
